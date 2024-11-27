@@ -1,0 +1,14 @@
+@skipDbChangelog
+entity Notification {
+    message TextBlob required,
+    reservationId Long ,
+    userLogin String required,
+    deleted Boolean required,
+    read Boolean required
+}
+
+dto * with mapstruct
+service all with serviceClass
+filter *
+paginate Notification with pagination
+skipClient *
