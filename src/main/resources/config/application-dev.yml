@@ -56,7 +56,7 @@ spring:
       port: 8500
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mariadb://localhost:3306/bookyoonnotificationservice?useLegacyDatetimeCode=false
+    url: jdbc:mariadb://localhost:3306/bookyoonnotificationservice?useLegacyDatetimeCode=false&createDatabaseIfNotExist=true
     username: root
     password:
     hikari:
@@ -98,7 +98,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
-        base64-secret: YTE5MTA3ZjFkMjVmMmVmYjg3ZjM3MjcxM2U5YjI4NDI2MGU0NjdiNzQ2ZjM2ODAyZjgzZTljMzJkZjhhYTRmYTlmMTI5MWQ4ZmQzNWUwN2JkMjgwMDA4OTA2MmU3MTk5OGEzMTVlMDlhN2IyYTk5NGRiODY3M2MzZWY1YWU0ZjQ=
+        base64-secret: MjA5NGNiZjY1YzY3OWIwYjVmMzFkMjBjMmFlNjQxYzIxOGQ2ODlkYjliNDM5NTFmZGQ3MmNmM2EzODVhY2M5MTQ1ZDNkNTFlNTlmNGJhMTg5NjI1OTcwOGZkNDQ1NDE1ZTZmMWE0NmI1MTBkY2VjMmRhOTQyNjc4MTA4NjdlYjc=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000

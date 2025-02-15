@@ -1,0 +1,11 @@
+id;message;reservation_id;user_login;deleted;jhi_read
+1;../fake-data/blob/hipster.txt;15617;commissionnaire maintenant;true;true
+2;../fake-data/blob/hipster.txt;8790;concurrence d’autant que;true;false
+3;../fake-data/blob/hipster.txt;5300;foule sage;true;true
+4;../fake-data/blob/hipster.txt;16108;alors que étant donné que;false;true
+5;../fake-data/blob/hipster.txt;27704;envelopper patientèle cot cot;false;true
+6;../fake-data/blob/hipster.txt;12523;antagoniste à l'instar de;true;false
+7;../fake-data/blob/hipster.txt;23821;au-dessous de outre;false;true
+8;../fake-data/blob/hipster.txt;28653;blême;true;false
+9;../fake-data/blob/hipster.txt;1160;fade contre;false;true
+10;../fake-data/blob/hipster.txt;1434;smack cuicui divinement;true;true
